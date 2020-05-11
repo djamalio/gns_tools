@@ -4,7 +4,7 @@ import requests
 import json
 
 class GNSTools:
-    def __init__(self, ip='http://127.0.0.1:3080', auth = ('admin', 'deniska')):
+    def __init__(self, ip='http://127.0.0.1:3080', auth = ('admin', 'admin')):
         self.ip = ip
         self.auth = auth
         self.sess = requests.Session()
